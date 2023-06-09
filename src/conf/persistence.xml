@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="PrototipoP3EF2023PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>vista.TblEmpleados</class>
+    <class>vista.TblDetallefactura</class>
+    <class>vista.TblPaciente</class>
+    <class>vista.TblTipoexamen</class>
+    <class>vista.TblmovBitacora</class>
+    <class>vista.TblLogin</class>
+    <class>vista.TblBitacora</class>
+    <class>vista.TblExamen</class>
+    <class>vista.TblEncabezadofactura</class>
+    <class>vista.TblReferencias</class>
+    <class>vista.TblPago</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://mysql-131038-0.cloudclusters.net:16729/LabClinico?zeroDateTimeBehavior=CONVERT_TO_NULL"/>
+      <property name="javax.persistence.jdbc.user" value="admin"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="3QSybeA1"/>
+    </properties>
+  </persistence-unit>
+</persistence>
